@@ -145,6 +145,8 @@ class LinkedList():
             print(self.head.getValue())
             self.head = self.head.getNext()
 
+if __name__ == "__main__":
+    print("This is LinkedList.py")
 
 
    
