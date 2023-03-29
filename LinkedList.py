@@ -147,6 +147,10 @@ class LinkedList():
 
 if __name__ == "__main__":
     print("This is LinkedList.py")
+    myList = LinkedList()
+    myList.insertLast("apple")
+    myList.insertLast("boy")
+    myList.printf()
 
 
    
