@@ -1,0 +1,69 @@
+body {
+  font-family: Arial, sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  margin: 0;
+  background-color: #f8f8f8;
+}
+
+.card {
+  padding: 20px;
+  border-radius: 10px;
+  background-color: #fff;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  text-align: center;
+  max-width: 400px;
+  position: relative;
+}
+
+.greeting {
+  font-size: 24px;
+  color: #333;
+}
+
+.message {
+  font-size: 16px;
+  color: #666;
+}
+
+.love-btn {
+  margin-top: 15px;
+  background-color: #ff4081;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  font-size: 16px;
+  border-radius: 5px;
+  cursor: pointer;
+  outline: none;
+  position: relative;
+  overflow: hidden;
+}
+
+.love-btn:hover {
+  background-color: #ff3a6e;
+}
+
+.heart {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 30%;
+  height: 30%;
+  background-image: url('heart2.svg'); /* Replace with a heart SVG image */
+  background-size: contain;
+  background-repeat: no-repeat;
+  opacity: 0;
+}
+
+.heart-container {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  pointer-events: none;
+  overflow: hidden;
+}
